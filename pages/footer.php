@@ -27,7 +27,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="footer-widget mb-30">
                         <h3 class="widget-title">Royal Lion Investment & Associated</h3>
-                        <p>CCCT Pirámide Invertida, Torre A. Caracas - Venezuela.</p>
+                        <p class="widget-address">CCCT Pirámide Invertida, Torre A. Caracas - Venezuela.</p>
                     </div>
                     <div class="contest-details-wrapper footer-icons">
                         <div class="single-item w-2">

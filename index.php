@@ -63,32 +63,27 @@
           <div class="row">
             <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mb-sm-20 display-block-auto">
               <div class="widget ps-widget text-center">
-                <a href="stockmarket"><img src="./assets/images/tarjeta-mercado-de-valores-nacional.jpg" alt="Mercado de Valores"></a>
+                <a href="stockmarket"><img src="./assets/img/tarjetas/tarjeta-mercado.jpg" alt="Royal Lion Mercado de Valores"></a>
               </div>
-              <!-- widget end -->
             </div>
-            <!-- affiliate-features-item end -->
             <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mb-20 display-block-auto mt-sm-20">
               <div class="widget ps-widget text-center">
-                <a href="pymes"><img src="./assets/images/tarjeta-agroacciona.jpeg" alt="Agro Acciona"></a>
+                <a href="pymes"><img src="./assets/img/tarjetas/tarjeta-pymes.jpg" alt="Royal Lion PYMES"></a>
               </div>
-              <!-- widget end -->
-            </div><!-- affiliate-features-item end -->
+            </div>
             <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mb-sm-20 display-block-auto mt-md-20 mt-sm-20">
               <div class="widget ps-widget text-center">
-                <a href="otherinvestment"><img src="./assets/images/tarjeta-otras-opciones-de-inversion.jpg" alt="Otras Inversiones"></a>
+                <a href="otherinvestment"><img src="./assets/img/tarjetas/tarjeta-otras-opciones.jpg" alt="Royal Lion Otras Inversiones"></a>
               </div>
-              <!-- widget end -->
-            </div><!-- affiliate-features-item end -->
+            </div>
             <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mb-20 display-block-auto mt-lg-20 mt-md-20 mt-sm-20">
               <div class="widget ps-widget text-center">
-                <a href="corporate-finance"><img src="./assets/images/tarjeta-finanzas-corporativas.jpg" alt="Finanzas Corporativas"></a>
+                <a href="corporate-finance"><img src="./assets/img/tarjetas/tarjeta-finanzas.jpg" alt="Royal Lion Finanzas Corporativas"></a>
               </div>
-              <!-- widget end -->
-            </div><!-- affiliate-features-item end -->
+            </div>
             <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mb-20 display-block-auto mt-lg-20 mt-md-20 mt-sm-20">
               <div class="widget ps-widget text-center">
-                <a href="bonuses"><img src="./assets/images/tarjeta-bonos-venezolanos.jpg" alt="Bonos Venezolanos"></a>
+                <a href="bonuses"><img src="./assets/img/tarjetas/tarjeta-bonos.jpg" alt="Royal Lion Bonos Venezolanos"></a>
               </div>
             </div>
           </div>
@@ -201,8 +196,14 @@
             </div>
             <div class="content">
               <h3 class="name">Tasa de Cambio Promedio</h3>
-              <h3 class="name"><span id="tasaDolarBCV">Cargando...</span> Bs/USD</h3>
-              <span class="designation" id="fechaValorDolarBCV">Cargando...</span>
+              <h3 class="name">
+                  <?php
+                  $data = json_decode(file_get_contents('https://api.exchangedyn.com/markets/quotes/usdves/bcv'), true);
+                  $bs_usb = number_format($data['sources']['BCV']['quote'], 2, ',', '.');
+                  echo $bs_usb;
+                  ?>
+                BS / USD</h3>
+              <!-- <span class="designation" id="fechaValorDolarBCV">Cargando...</span> -->
             </div>
           </div><!-- post-author end -->
         </div>
@@ -215,8 +216,16 @@
             </div>
             <div class="content">
               <h3 class="name">PRECIO DEL ORO</h3>
-              <h3 class="name">$1,784.75</h3>
-              <span class="designation">1 oz.</span>
+              <h3 class="name">
+                <?php
+                $data = file_get_contents("https://es.investing.com/commodities/gold");
+
+                if (preg_match('|<span class="text-2xl" data-test="instrument-price-last">(.*?)</span>|is', $data, $cap)) {
+                  print($cap[1]);
+                }
+                ?>
+                USD / 1 oz</h3>
+              <!-- <span class="designation">1 oz.</span> -->
             </div>
           </div><!-- post-author end -->
         </div>
