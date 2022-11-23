@@ -85,7 +85,7 @@
             <div class="contest-details-wrapper">
               <div class="single-item w-2">
                 <h3 class="title"><i class="fa fa-envelope fa-3x iconcolor"></i></h3>
-                <span class="content-name">info@royallion.com</span>
+                <a href="mailto:info@royallion.com"><span class="content-name">info@royallion.com</span></a>
               </div>
               <div class="single-item">
                 <h3 class="title">
@@ -102,8 +102,8 @@
                 </ul>
               </div>
               <div class="single-item w-2">
-                <h3 class="title"><i class="fa fa-telegram fa-3x iconcolor"></i></h3>
-                <span class="content-name">+58 424 278 99 59</span>
+                <h3 class="title"><i class="fa fa-instagram fa-3x iconcolor"></i></h3>
+                <a href="https://instagram.com/royallion"><span class="content-name">@royallion</span></a>
               </div>
             </div>
           </div>

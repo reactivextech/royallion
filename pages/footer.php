@@ -37,7 +37,7 @@
                             <a href="#!" target="_blank"><i class="fa fa-twitter fa-2x iconcolor"></i></a>
                         </div>
                         <div class="single-item w-2">
-                            <a href="#!" target="_blank"><i class="fa fa-instagram fa-2x iconcolor"></i></a>
+                            <a href="https://instagram.com/royallion" target="_blank"><i class="fa fa-instagram fa-2x iconcolor"></i></a>
                         </div>
                     </div>
                 </div>

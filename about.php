@@ -46,15 +46,14 @@
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-xl-6 order-xl-2 order-1 map-bg">
-          <img src="./assets/images/elements/nosotros.jpg" alt="image">
+          <img src="./assets/img/nosotros.png" alt="image">
         </div>
-        <div class="col-lg-6">
+        <div class="col-xl-6">
           <div class="section-header text-lg-left text-center">
             <span class="section-subtitle">¿Quiénes Somos?</span>
             <h1 class="section-title">Royal Lion Investment & Associated</h1>
-            <p>Establecida en 2020, Royal Lion Investment & Associated es líder nacional en servicios integrales de carácter
-              legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de
-              enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.</p>
+            <p>Establecida en 2018, Royal Lion Investment & Associated es líder nacional en servicios integrales de carácter
+              legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, con más de 30 colaboradores alrededor del mundo.</p>
           </div>
         </div>
       </div>
@@ -64,9 +63,9 @@
 
   <!-- global-section start -->
   <section class="global-section">
-    <div class="container-fluid">
-      <div class="row justify-content-end">
-        <div class="col-xl-5 order-xl-1 order-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 order-xl-1 order-2">
           <div class="global-content">
             <div class="section-header">
               <h2 class="section-title">Nuestra Misión</h1>
@@ -76,7 +75,7 @@
               del grupo humano de excelencia, que conforma nuestra organización.</p>
           </div>
         </div>
-        <div class="col-xl-6 order-xl-2 order-1">
+        <div class="col-xl-6 order-xl-2 order-1 text-center">
           <img src="./assets/images/mision.png" alt="image">
         </div>
       </div>
@@ -86,9 +85,9 @@
 
   <!-- global-section start -->
   <section class="global-section">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row justify-content-end">
-        <div class="col-xl-6 order-xl-1 order-1">
+        <div class="col-xl-6 order-xl-1 order-1 text-center">
           <img src="./assets/images/vision.png" alt="image">
         </div>
         <div class="col-xl-6 order-xl-2 order-2">
@@ -109,7 +108,7 @@
   <!-- global-section end -->
 
   <!-- valores-section start -->
-  <section class="deposit-withdraw-section pt-120 pb-120">
+  <section class="deposit-withdraw-section pt-80 pb-120">
     <div class="circle-object"><img src="./assets/images/elements/deposit-circle-shape.png" alt="image"></div>
     <div class="container">
       <div class="row justify-content-center">
@@ -348,10 +347,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="btn-area text-center pt-75">
-              <a href="./assets/balance/auditores-acciona.pdf" class="btn btn-primary btn-hover text-small">AUDITORES PDF</a>
             </div>
           </div>
         </div>

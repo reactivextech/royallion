@@ -69,16 +69,7 @@
                     asesoramos a nuestra cartera sobre sus inquietudes en dichos mercados a fines enunciativos, los
                     cuales se describen a continuación:</p>
 
-                  <div class="blog-single-details font-size-16">
-                    <!-- <ul>
-                          <li><a href="goldmarket">Mercado del Oro off shore.</a></li>
-                          <li><a href="contact">Mercado de Criptomonedas off shore.</a></li>
-                          <li><a href="contact">Mercado de Bienes Raíces off shore.</a></li>
-                          <li><a href="contact">Mercado de Fondos Mutuos off shore.</a></li>
-                          <li><a href="contact">Mercado de Préstamos P2P off shore.</a></li>
-                          <li><a href="contact">Mercado de Derivados off shore.</a></li>
-                          <li><a href="contact">Mercado de Bonos off shore.</a></li>
-                        </ul> -->
+                  <div class="single-details-botons font-size-16">
                     <div class="blog-single-details">
                       <a href="goldmarket" class="btn btn-primary">Mercado del Oro off shore</a>
                     </div>

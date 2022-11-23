@@ -93,6 +93,32 @@
   </section>
   <!-- affiliate-features-section end -->
 
+  <section class="international-section pb-120">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="section-header text-center wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.5s">
+            <h2 class="section-title">Internacionales</h2>
+          </div>
+        </div>
+        <div class="col-xl-12 col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 mt-4">
+              <div class="text-center">
+                <a href="https://nyse.com" target="_blank" class="btn btn-secondary">NYSE</a>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="text-center">
+                <a href="https://nasdaq.com/es" target="_blank" class="btn btn-primary">Nasdaq</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- community-section start -->
   <section class="community-section bg_img2 pt-250">
     <div class="container-fluid">
@@ -197,11 +223,11 @@
             <div class="content">
               <h3 class="name">Tasa de Cambio Promedio</h3>
               <h3 class="name">
-                  <?php
-                  $data = json_decode(file_get_contents('https://api.exchangedyn.com/markets/quotes/usdves/bcv'), true);
-                  $bs_usb = number_format($data['sources']['BCV']['quote'], 2, ',', '.');
-                  echo $bs_usb;
-                  ?>
+                <?php
+                $data = json_decode(file_get_contents('https://api.exchangedyn.com/markets/quotes/usdves/bcv'), true);
+                $bs_usb = number_format($data['sources']['BCV']['quote'], 2, ',', '.');
+                echo $bs_usb;
+                ?>
                 BS / USD</h3>
               <!-- <span class="designation" id="fechaValorDolarBCV">Cargando...</span> -->
             </div>
@@ -342,29 +368,12 @@
               las nuevas opciones disponibles a su portafolio.</p>
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col-lg-12">
-          <div class="calculate-area wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+          <div class="calculate-area">
             <ul class="nav nav-tabs justify-content-around" id="calculatorTab" role="tablist">
-              <!-- <li>
-                <div class="icon"><img src="./assets/images/icons/invest-calculate/1.svg" alt="icon-image"></div>
-                <h4 class="package-name">Plan Básico</h4>
-                <span class="percentage">2%</span>
-                <a class="active" id="basic-tab" data-toggle="tab" href="#basic" role="tab" aria-controls="basic" aria-selected="true">calculate</a>
-              </li> -->
               <li>
-                <!-- <div class="icon"><img src="./assets/images/icons/invest-calculate/2.svg" alt="icon-image"></div>
-                <h4 class="package-name">Plan Estandard</h4>
-                <span class="percentage">3%</span> -->
-                <a href="contact" id="satandard-tab" data-toggle="tab" role="tab" aria-controls="satandard" aria-selected="false">Contacta con nuestros ejecutivos ahora</a>
+                <a href="contact" id="satandard-tab">Contacta con nuestros ejecutivos ahora</a>
               </li>
-              <!-- <li>
-                <div class="icon"><img src="./assets/images/icons/invest-calculate/3.svg" alt="icon-image"></div>
-                <h4 class="package-name">Plan Premium</h4>
-                <span class="percentage">4%</span>
-                <a id="premium-tab" data-toggle="tab" href="#premium" role="tab" aria-controls="premium" aria-selected="false">calculate</a>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -374,7 +383,7 @@
   <!-- calculate-profit-section end -->
 
   <!-- contest-winner-section start  -->
-  <section class="section-header contest-winner-section pb-80">
+  <section class="account-requirements section-header contest-winner-section">
     <div class="shape"><img src="./assets/images/elements/contest-shape.png" alt="image"></div>
     <div class="container">
       <div class="row justify-content-between">
@@ -440,7 +449,7 @@
   <!-- contest-winner-section end  -->
 
   <!-- contest-winner-section start  -->
-  <section class="contest-winner-section pt-120 pb-120">
+  <section class="contest-winner-section pt-120">
     <div class="shape"><img src="./assets/images/elements/contest-shape.png" alt="image"></div>
     <div class="container">
       <div class="row justify-content-between">
@@ -631,13 +640,13 @@
   <!-- choose-us-section end -->
 
   <!-- partner-section start -->
-  <section class="partner-section pt-lg-120 pb-120">
+  <section class="partner-section pt-lg-120">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-5">
           <div class="partner-wrapper">
             <div class="partner-single-inner2">
-              <img src="./assets/images/elements/ilicito.png" alt="image">
+              <img src="./assets/img/ilicito.png" alt="image">
             </div>
             <!-- partner-single end -->
           </div>
