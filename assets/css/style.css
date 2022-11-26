@@ -1885,6 +1885,22 @@ span.is-active:after {
 .animPluse {
 	animation: animPluse 3s linear infinite;
 }
+@keyframes animPluse {
+	from {
+		-webkit-transform: translate(-50%, -50%) scale3d(1, 1, 1);
+		transform: translate(-50%, -50%) scale3d(1, 1, 1);
+	}
+
+	50% {
+		-webkit-transform: translate(-50%, -50%) scale3d(1.05, 1.05, 1.05);
+		transform: translate(-50%, -50%) scale3d(1.05, 1.05, 1.05);
+	}
+
+	to {
+		-webkit-transform: translate(-50%, -50%) scale3d(1, 1, 1);
+		transform: translate(-50%, -50%) scale3d(1, 1, 1);
+	}
+}
 @-webkit-keyframes animPluse {
 	from {
 		-webkit-transform: translate(-50%, -50%) scale3d(1, 1, 1);
@@ -3991,6 +4007,22 @@ div[class*='col']:nth-child(5) .feature-item.item--style2 .icon {
 	-o-transform: translateX(-50%);
 	animation: animPluseTwo 3s linear infinite;
 }
+@keyframes animPluseTwo {
+	from {
+		-webkit-transform: translateX(-50%) scale3d(1, 1, 1);
+		transform: translateX(-50%) scale3d(1, 1, 1);
+	}
+
+	50% {
+		-webkit-transform: translateX(-50%) scale3d(1.05, 1.05, 1.05);
+		transform: translateX(-50%) scale3d(1.05, 1.05, 1.05);
+	}
+
+	to {
+		-webkit-transform: translateX(-50%) scale3d(1, 1, 1);
+		transform: translateX(-50%) scale3d(1, 1, 1);
+	}
+}
 @-webkit-keyframes animPluseTwo {
 	from {
 		-webkit-transform: translateX(-50%) scale3d(1, 1, 1);
@@ -4518,6 +4550,7 @@ blockquote::before {
 		rgb(240, 121, 33) 33%,
 		rgb(252, 151, 21) 100%
 	);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 62px;

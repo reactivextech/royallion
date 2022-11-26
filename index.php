@@ -24,7 +24,7 @@
   <div class="swiper-cover">
     <div class="swiper-wrapper">
       <div class="swiper-slide banner-section pb-150">
-        <div class="banner-elements-image anim-bounce"><img src="./assets/img/banner.png" alt="image"></div>
+        <div class="banner-elements-image anim-bounce"><img src="./assets/img/banner.png" alt="Banner"></div>
         <div class="container">
           <div class="row">
             <div class="col-xl-8">
@@ -43,26 +43,29 @@
         </div>
       </div>
       <div class="swiper-slide banner-section pb-150">
-        <div class="banner-elements-image anim-bounce"><img src="./assets/img/banner.png" alt="image"></div>
         <div class="container">
           <div class="row">
             <div class="col-xl-8">
               <div class="banner-content-area">
                 <div class="banner-content">
-                  <span class="banner-sub-title">Empieza a construir tu futuro ahora</span>
+                  <!-- <span class="banner-sub-title">Empieza a construir tu futuro ahora</span> -->
                   <h1 class="banner-title iconcolor titleacciona">CONSTITUYE UN FONDO DE RENTA FIJA 19% DE RENDIMIENTO ANUAL GARANTIZADO</h1>
-                  <p>Contacta de inmediato con nuestros ejecutivos, comienza a convertir tus sueños en realidad.</p>
+                  <!-- <p>Contacta de inmediato con nuestros ejecutivos, comienza a convertir tus sueños en realidad.</p> -->
                 </div>
                 <div class="banner-btn-area">
                   <a href="#contact-us" class="btn btn-primary btn-round">¡Hablemos de tu proyecto ahora!</a>
                 </div>
               </div>
             </div>
+            <div class="col-xl-4">
+              <div class="banner-content-area">
+                <img src="./assets/img/logo-royallion.png" alt="Royal Lion">
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide banner-section pb-150">
-        <div class="banner-elements-image anim-bounce"><img src="./assets/img/banner.png" alt="image"></div>
         <div class="container">
           <div class="row">
             <div class="col-xl-8">
@@ -77,23 +80,32 @@
                 </div>
               </div>
             </div>
+            <div class="col-xl-4 d-flex justify-content-center align-content-center">
+              <div class="banner-content-area">
+                <img src="./assets/img/micom.png" alt="Micom Commodities">
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide banner-section pb-150">
-        <div class="banner-elements-image anim-bounce"><img src="./assets/img/banner.png" alt="image"></div>
         <div class="container">
           <div class="row">
-            <div class="col-xl-8">
+            <div class="col-xl-6">
               <div class="banner-content-area">
                 <div class="banner-content">
-                  <span class="banner-sub-title">Empieza a construir tu futuro ahora</span>
-                  <h1 class="banner-title iconcolor titleacciona">Haz tu cita AHORA y comienza a construir tus sueños en la mejor zona comercial de Caracas</h1>
-                  <p>Contacta de inmediato con nuestros ejecutivos, comienza a convertir tus sueños en realidad.</p>
+                  <span class="banner-sub-title">Haz tu cita AHORA</span>
+                  <h1 class="banner-title iconcolor titleacciona">Comienza a construir tus sueños</h1>
+                  <p>En la mejor zona comercial de Caracas.</p>
                 </div>
                 <div class="banner-btn-area">
                   <a href="#contact-us" class="btn btn-primary btn-round">¡Hablemos de tu proyecto ahora!</a>
                 </div>
+              </div>
+            </div>
+            <div class="col-xl-6 d-flex justify-content-center align-content-center">
+              <div class="banner-content-area">
+                <img src="./assets/img/ccct.jpg" alt="CCCT Royal Lion">
               </div>
             </div>
           </div>
@@ -104,6 +116,20 @@
     <div class="swiper-pagination"></div>
   </div>
   <!-- banner-section end -->
+
+  <div class="banner-banner">
+    <div class="container">
+      <div class="row mb-4 justify-content-center">
+        <div class="col-12">
+          <div class="theme-bg text-center">
+            <div class="card-body">
+              <img src="assets/img/logo-horizontal-rl.png" alt="Royal Lion">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- affiliate-features-section start -->
   <section class="affiliate-features-section pt-120 pb-120">
