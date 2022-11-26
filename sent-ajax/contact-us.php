@@ -13,9 +13,9 @@
             $datos=0;
           } else {
 
-            $usuario_mail="info@royallion.com"; // Direccion de envio
-            $remite = "www.royallion.com"; //Nombre de Quien remite o envia
-            $remite_email = "no-reply@royallion.com";
+            $usuario_mail= "info@royallioninvestment.com"; // Direccion de envio
+            $remite = "www.royallioninvestment.com"; //Nombre de Quien remite o envia
+            $remite_email = "no-reply@royallioninvestment.com";
             $asunto = "Correo de contacto desde $remite";
 
             // Armar un mensaje html para el cuerpo del correo electrónico
@@ -24,7 +24,7 @@
             <title>Han enviado el siguiente formulario de contacto</title>
             </head>
             <body>
-            <h1>Contacto desde www.royallion.com <br clear='all'/>(en línea)</h1><br clear='all'/>
+            <h1>Contacto desde www.royallioninvestment.com <br clear='all'/>(en línea)</h1><br clear='all'/>
             Nombre: ".$nombre." <br clear='all'/>
             Correo: ".$correo." <br clear='all'/>
             Teléfono: ".$telefono." <br clear='all'/>

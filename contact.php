@@ -85,7 +85,7 @@
             <div class="contest-details-wrapper">
               <div class="single-item w-2">
                 <h3 class="title"><i class="fa fa-envelope fa-3x iconcolor"></i></h3>
-                <a href="mailto:info@royallion.com"><span class="content-name">info@royallion.com</span></a>
+                <a href="mailto:info@royallioninvestment.com"><span class="content-name">info@royallioninvestment.com</span></a>
               </div>
               <div class="single-item">
                 <h3 class="title">

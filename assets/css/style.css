@@ -8095,6 +8095,9 @@ img.icon-balance {
 .affiliate-features-section img {
 	border-radius: 5%;
 }
+.swiper-cover {
+	overflow: hidden;
+}
 /* responsive css start */
 @media (max-width: 1750px) {
 	.banner-elements-image img {

@@ -15,9 +15,9 @@
         //     }
         else {
 
-            $usuario_mail="newsletter@royallion.com"; // Direccion de envio
-            $remite = "www.royallion.com"; //Nombre de Quien remite o envia
-            $remite_email = "no-reply@royallion.com";
+            $usuario_mail= "newsletter@royallioninvestment.com"; // Direccion de envio
+            $remite = "www.royallioninvestment.com"; //Nombre de Quien remite o envia
+            $remite_email = "no-reply@royallioninvestment.com";
             $asunto = "Suscripción desde $remite";
 
             // Armar un mensaje html para el cuerpo del correo electrónico
@@ -26,7 +26,7 @@
             <title>Han enviado la siguiente suscripción</title>
             </head>
             <body>
-            <h1>Suscripción desde www.royallion.com <br clear='all'/>(en línea)</h1><br clear='all'/>
+            <h1>Suscripción desde www.royallioninvestment.com <br clear='all'/>(en línea)</h1><br clear='all'/>
             Correo: ".$newsletter." <br clear='all'/>
             </body></html>";
 

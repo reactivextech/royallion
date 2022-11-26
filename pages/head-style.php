@@ -20,14 +20,14 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Royal Lion Investment & Associated">
-<meta property="og:url" content="https://www.royallion.com">
+<meta property="og:url" content="https://www.royallioninvestment.com">
 <meta property="og:title" content="Royal Lion Investment & Associated">
 <meta property="og:description" content="Establecida en 2020 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
 <!-- <meta property="og:image" content="./assets/img/social/meta-f.png"> -->
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://www.royallion.com">
+<meta property="twitter:url" content="https://www.royallioninvestment.com">
 <meta property="twitter:title" content="Royal Lion Investment & Associated">
 <meta property="twitter:description" content="Establecida en 2020 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
 <!-- <meta property="twitter:image" content="./assets/images/social/meta-t.png"> -->
@@ -49,5 +49,6 @@
 <link rel="stylesheet" href="./assets/css/vendor/owl.carousel.min.css">
 <link rel="stylesheet" href="./assets/css/vendor/jquery-ui.min.css">
 <link rel="stylesheet" href="./assets/css/vendor/animate.min.css">
+<link rel="stylesheet" href="./assets/css/vendor/swiper-bundle.min.css">
 <!-- App CSS -->
 <link rel="stylesheet" href="./assets/css/style.css">

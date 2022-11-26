@@ -24,8 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost:8080/royallion/members/';
-// $config['base_url'] = 'https://4997-190-236-151-111.ngrok.io/royallion/members/';
-// $config['base_url'] = 'https://royallion-production.up.railway.app:8005/members/';
+// $config['base_url'] = 'https://www.royallioninvestment.com/members/';
 /*
 |--------------------------------------------------------------------------
 | Index File

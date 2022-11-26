@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 // $db['default'] = array(
 // 	'dsn'	=> '',
-// 	'hostname' => 'containers-us-west-104.railway.app',
-// 	'username' => 'root',
-// 	'password' => '9oSqyi3p4n9HSBhDVMuY',
-// 	'database' => 'railway',
+// 	'hostname' => 'royallioninvestment.com',
+// 	'username' => 'royallio_impulse',
+// 	'password' => 'Royal0022#',
+// 	'database' => 'royallio_members',
 // 	'dbdriver' => 'mysqli',
 // 	'dbprefix' => '',
 // 	'pconnect' => FALSE,

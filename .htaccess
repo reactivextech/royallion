@@ -14,3 +14,5 @@ RewriteRule ^(.*)$ $1.html
 #RewriteRule ^([a-z]+)/?$ $1.html [NC]
 
 </IfModule>
+RewriteCond %{HTTP_HOST} ^royallioninvestment\.com$
+RewriteRule ^/?$ "https\:\/\/www\.royallioninvestment\.com\/" [R=301,L]
