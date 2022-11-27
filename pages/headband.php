@@ -63,6 +63,8 @@
 
                             if (preg_match('|<span class="text-2xl" data-test="instrument-price-last">(.*?)</span>|is', $data, $cap)) {
                                 print($cap[1]);
+                            } else {
+                                echo 1000;
                             }
                             ?>
                         </span> USD/1oz

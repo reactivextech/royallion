@@ -8790,6 +8790,9 @@ img.icon-balance {
 	}
 }
 @media (max-width: 767px) {
+	.banner-content-area-img {
+		padding-top: 50px !important;
+	}
 	.block-content-col {
 		display: block;
 	}

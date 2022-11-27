@@ -23,11 +23,11 @@
   <!-- banner-section start -->
   <div class="swiper-cover">
     <div class="swiper-wrapper">
-      <div class="swiper-slide banner-section pb-150">
-        <div class="banner-elements-image anim-bounce"><img src="./assets/img/banner.png" alt="Banner"></div>
+      <div class="swiper-slide banner-section">
+        <!-- <div class="banner-elements-image anim-bounce"><img src="./assets/img/banner.png" alt="Banner"></div> -->
         <div class="container">
           <div class="row">
-            <div class="col-xl-8">
+            <div class="col-md-7">
               <div class="banner-content-area">
                 <div class="banner-content">
                   <span class="banner-sub-title">Empieza a construir tu futuro ahora</span>
@@ -39,10 +39,15 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-5 d-flex justify-content-center align-content-center">
+              <div class="banner-content-area banner-content-area-img anim-bounce">
+                <img src="./assets/img/banner2.png" alt="Banner">
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="swiper-slide banner-section pb-150">
+      <div class="swiper-slide banner-section">
         <div class="container">
           <div class="row">
             <div class="col-xl-8">
@@ -57,15 +62,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4">
-              <div class="banner-content-area">
+            <div class="col-xl-4 d-flex justify-content-center align-content-center">
+              <div class="banner-content-area banner-content-area-img">
                 <img src="./assets/img/logo-royallion.png" alt="Royal Lion">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="swiper-slide banner-section pb-150">
+      <div class="swiper-slide banner-section">
         <div class="container">
           <div class="row">
             <div class="col-xl-8">
@@ -81,14 +86,14 @@
               </div>
             </div>
             <div class="col-xl-4 d-flex justify-content-center align-content-center">
-              <div class="banner-content-area">
+              <div class="banner-content-area banner-content-area-img">
                 <img src="./assets/img/micom.png" alt="Micom Commodities">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="swiper-slide banner-section pb-150">
+      <div class="swiper-slide banner-section">
         <div class="container">
           <div class="row">
             <div class="col-xl-6">
@@ -104,7 +109,7 @@
               </div>
             </div>
             <div class="col-xl-6 d-flex justify-content-center align-content-center">
-              <div class="banner-content-area">
+              <div class="banner-content-area banner-content-area-img">
                 <img src="./assets/img/ccct.jpg" alt="CCCT Royal Lion">
               </div>
             </div>
