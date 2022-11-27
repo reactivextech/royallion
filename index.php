@@ -41,7 +41,7 @@
             </div>
             <div class="col-md-5 d-flex justify-content-center align-content-center">
               <div class="banner-content-area banner-content-area-img anim-bounce">
-                <img src="./assets/img/banner2.png" alt="Banner">
+                <img src="./assets/img/banner.png" alt="Banner">
               </div>
             </div>
           </div>
