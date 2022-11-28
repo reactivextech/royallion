@@ -52,7 +52,7 @@
           <div class="section-header text-lg-left text-center">
             <span class="section-subtitle">¿Quiénes Somos?</span>
             <h1 class="section-title">Royal Lion Investment & Associated</h1>
-            <p>Establecida en 2018, Royal Lion Investment & Associated es líder nacional en servicios integrales de carácter
+            <p>Establecida en 2014, Royal Lion Investment & Associated es líder nacional en servicios integrales de carácter
               legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, con más de 30 colaboradores alrededor del mundo.</p>
           </div>
         </div>

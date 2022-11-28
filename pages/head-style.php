@@ -13,7 +13,7 @@
 <title>Royal Lion Investment & Associated</title>
 <meta name="title" content="Royal Lion Investment & Associated">
 <meta name="author" content="Impulse Technologies">
-<meta name="description" content="Establecida en 2020 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
+<meta name="description" content="Establecida en 2014 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
 <meta name="keywords" content="Valores, Casa de Bolsa, Bolsa de Valores, Royal Lion">
 <meta name="theme-color" content="#0C0C0C">
 
@@ -22,14 +22,14 @@
 <meta property="og:site_name" content="Royal Lion Investment & Associated">
 <meta property="og:url" content="https://www.royallioninvestment.com">
 <meta property="og:title" content="Royal Lion Investment & Associated">
-<meta property="og:description" content="Establecida en 2020 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
+<meta property="og:description" content="Establecida en 2014 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
 <!-- <meta property="og:image" content="./assets/img/social/meta-f.png"> -->
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://www.royallioninvestment.com">
 <meta property="twitter:title" content="Royal Lion Investment & Associated">
-<meta property="twitter:description" content="Establecida en 2020 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
+<meta property="twitter:description" content="Establecida en 2014 es líder nacional en servicios integrales de carácter legal, de inversiones y fiduciario. Con oficinas para atenderle en Caracas, y contamos con oficinas de enlace en Ciudad de Panamá y Miami y con más de 30 colaboradores alrededor del mundo.">
 <!-- <meta property="twitter:image" content="./assets/images/social/meta-t.png"> -->
 
 <!-- Favicon -->
