@@ -166,7 +166,7 @@ var swiperCover = new Swiper('.swiper-cover', {
 	centeredSlides: true,
 	loop: true,
 	autoplay: {
-		delay: 2500,
+		delay: 6000,
 		disableOnInteraction: false,
 	},
 	pagination: {

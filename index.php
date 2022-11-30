@@ -136,6 +136,33 @@
     </div>
   </div>
 
+  <div class="banner-banner">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12">
+          <div class="card theme-bg text-center">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-8 align-self-center">
+                  <h1 class="h1-banner">NUEVOS PRODUCTOS DE INVERSIÓN DISPONIBLES CON VENTAJA DE ACCESO</h1>
+                  <p class="p-banner">
+                    Sé el primero en invertir en opciones seleccionadas por el equipo de ejecutivos de ACCIONA Casa de Bolsa u accede a los mejores rendimientos con los mayores descuentos en entrada de apalancamiento.
+                  </p>
+                  <div class="btn-banner-area">
+                    <a href="contact" class="btn btn-primary">¡Comienza a constituir tu cartera ahora!</a>
+                  </div>
+                </div>
+                <div class="col-md-4 align-self-center ps-0 img-banner">
+                  <img src="members/template/assets1/img/finanzas.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- affiliate-features-section start -->
   <section class="affiliate-features-section pt-120 pb-120">
     <div class="shape"><img src="./assets/images/elements/affiliate-shape.png" alt="image"></div>
@@ -323,7 +350,7 @@
   <!-- community-section end -->
 
   <!-- community-section start -->
-  <section class="community-section pt-0">
+  <section class="community-section pb-120">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6">
@@ -342,9 +369,8 @@
                 echo $bs_usb;
                 ?>
                 BS / USD</h3>
-              <!-- <span class="designation" id="fechaValorDolarBCV">Cargando...</span> -->
             </div>
-          </div><!-- post-author end -->
+          </div>
         </div>
         <div class="col-lg-6">
           <div class="author-area02">
@@ -364,20 +390,97 @@
                 }
                 ?>
                 USD / 1 oz</h3>
-              <!-- <span class="designation">1 oz.</span> -->
             </div>
-          </div><!-- post-author end -->
+          </div>
         </div>
       </div>
 
       <div class="faq-area crypto">
         <div class="single-faq">
           <a href="price-crypto" id="cryptos" class="btn btn-primary btn-hover mt-30">Infórmate de la cotización de las criptomonedas</a>
-        </div><!-- single-faq end -->
+        </div>
       </div>
     </div>
   </section>
   <!-- community-section end -->
+
+  <section class="blog-section bg-black pb-120 pt-120">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-3">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active color-white m-1" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Crea tu cuenta</a>
+            <a class="nav-link color-white m-1" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Invierte</a>
+            <a class="nav-link color-white m-1" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Ejecuta</a>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="row align-items-center">
+                <div class="col-sm-5">
+                  <div class="align-items-center text-center-sm">
+                    <img class="width-10em" src="assets/img/mockup/mockup-seccion-members.png" alt="Royal Lion Members">
+                  </div>
+                </div>
+                <div class="col-sm-7">
+                  <div class="global-content">
+                    <div class="section-header text-lg-left text-center">
+                      <h2 class="section-title title-tab-pane color-white">Crea tu cuenta</h2>
+                      <p class="color-white">Toda empresa o persona que quiera incursionar en el mercado de valores, debe conocer el proceso y las instituciones que intervienen en él.</p>
+                      <div class="banner-btn-area">
+                        <a href="./members" class="btn btn-primary">Acceder</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="row align-items-center">
+                <div class="col-sm-5">
+                  <div class="align-items-center text-center-sm">
+                    <img class="width-10em" src="assets/img/mockup/mockup-seccion-members.png" alt="Royal Lion Members">
+                  </div>
+                </div>
+                <div class="col-sm-7">
+                  <div class="global-content">
+                    <div class="section-header text-lg-left text-center">
+                      <h2 class="section-title title-tab-pane color-white">Invierte</h2>
+                      <p class="color-white">Ofrecemos el más alto rendimiento en productos exclusivos de inversión. Solicita tu membresía de inversionista ¡Crecer hoy es posible!</p>
+                      <div class="banner-btn-area">
+                        <a href="./members" class="btn btn-primary">Acceder</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="row align-items-center">
+                <div class="col-sm-5">
+                  <div class="align-items-center text-center-sm">
+                    <img class="width-10em" src="assets/img/mockup/mockup-seccion-members.png" alt="Royal Lion Members">
+                  </div>
+                </div>
+                <div class="col-sm-7">
+                  <div class="global-content">
+                    <div class="section-header text-lg-left text-center">
+                      <h2 class="section-title title-tab-pane color-white">Comienza a hacer tus sueños realidad con Royal Lion</h2>
+                      <p class="color-white">Acceso a múltiples opciones financieras.</p>
+                      <div class="banner-btn-area">
+                        <a href="./members" class="btn btn-primary">Acceder</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- offer-section start -->
   <section class="offer-section pt-120 pb-120 bg_img bg-offer-bg">
